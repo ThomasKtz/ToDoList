@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9e805d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width : 30vw;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+        
+}
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.input_task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid grey;
+}
+
+#addTask{
+    height: 40px;
+    width: 10%;
+    font-size: 35px;
+    background-color: #9e805d;
+    color: white;
+    cursor: pointer;
+}
+
+.paragraphe_style{
+    margin: 8px 0 ;
+    padding: 10px 0;
+    padding-left: 10px;
+    border-radius: 6px;
+    background-color: #9e805d;
+    color: #fff;
+    cursor: pointer;
+    word-break: break-all;
+    animation: anime 0.5s linear;
+}
+.paragraphe_style:last-child{
+    margin-bottom: 0;
+}
+@keyframes anime{
+    from{
+        transform: translateY(50px);
+    }
+}
+
+.paragraphe_click{
+    background-color: grey;
+    text-decoration: line-through;
+}
+
